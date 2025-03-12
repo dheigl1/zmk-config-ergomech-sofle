@@ -49,7 +49,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN &inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+                <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP &inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         raise_layer {
@@ -65,7 +65,7 @@
             &trans  &trans              &trans          &trans  &trans  &trans                    &trans   &kp DE_U_UMLAUT  &trans &kp DE_O_UMLAUT  &trans   &trans
             &trans  &kp DE_A_UMLAUT     &kp DE_SHARP_S  &trans  &trans  &trans                    &kp LEFT &kp DOWN         &kp UP &kp RIGHT        &trans   &trans
             &trans  &kp DE_GREATER_THAN &trans          &trans  &trans  &trans                    &trans   &trans           &trans &trans           &trans   &trans
-                                        &trans          &trans  &trans  &trans  &trans    &trans  &kp DEL  &trans  &trans   &trans
+                    &trans        &trans          &trans  &trans  &trans  &trans    &trans  &kp DEL  &trans  &trans   &trans
             >;
 
         };
