@@ -15,13 +15,6 @@
 #define RAISE 1
 
 / {
-    keycodes {
-        custom_gt: custom_gt {
-            label = "GT";
-            bindings = <&string ">">;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -59,7 +52,7 @@
             &kp F1  &kp F2              &kp F3          &kp F4    &kp F5  &kp F6                    &kp F7    &kp F8           &kp F9       &kp F10          &kp F11  &kp F12
             &trans  &trans              &trans          &trans    &trans  &trans                    &trans    &kp DE_U_UMLAUT  &trans       &kp DE_O_UMLAUT  &trans   &trans
             &trans  &kp DE_A_UMLAUT     &kp DE_SHARP_S  &kp HOME  &kp END &trans                    &kp LEFT  &kp DOWN         &kp UP       &kp RIGHT        &trans   &trans
-            &trans  &custom_gt          &trans          &trans    &trans  &trans                    &trans    &trans           &trans       &trans           &trans   &bt BT_CLR
+            &trans  &string ">"         &trans          &trans    &trans  &trans                    &trans    &trans           &trans       &trans           &trans   &bt BT_CLR
                     &trans              &trans          &trans    &trans  &trans  &trans    &trans  &kp DEL   &trans           &trans       &trans
                                                                                                     &kp ENTER &kp RIGHT        &kp UP_ARROW &kp LEFT      &kp DOWN
             >;
